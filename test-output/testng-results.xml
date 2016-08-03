@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9227" started-at="2016-08-03T07:42:01Z" finished-at="2016-08-03T07:42:10Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9227" started-at="2016-08-03T07:42:01Z" finished-at="2016-08-03T07:42:10Z">
+      <class name="test_cases.morCase_Case">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test_cases.morCase_Case@7a92922]" name="beforeMethod" is-config="true" duration-ms="1659" started-at="2016-08-03T15:42:01Z" finished-at="2016-08-03T15:42:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyMorecaseData()[pri:0, instance:test_cases.morCase_Case@7a92922]" name="verifyMorecaseData" duration-ms="6496" started-at="2016-08-03T15:42:02Z" finished-at="2016-08-03T15:42:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMorecaseData -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test_cases.morCase_Case@7a92922]" name="afterMethod" is-config="true" duration-ms="1059" started-at="2016-08-03T15:42:09Z" finished-at="2016-08-03T15:42:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- test_cases.morCase_Case -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,7 @@
+BEGIN TRANSACTION;
+DROP TABLE IF EXISTS "LoginPage";
+CREATE TABLE "LoginPage" ("RowId" INTEGER PRIMARY KEY  NOT NULL  UNIQUE , "WebelementName" TEXT, "Xpath" TEXT, "Type" TEXT);
+INSERT INTO "LoginPage" VALUES(1,'LoginName','//input[@id=''lusername'']','inputbox');
+INSERT INTO "LoginPage" VALUES(2,'Password','//input[@id=''lpassword'']','input');
+INSERT INTO "LoginPage" VALUES(3,'Login','//input[@id=''dl'']','Button');
+COMMIT;
